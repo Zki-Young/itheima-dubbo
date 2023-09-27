@@ -33,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dubbo-web/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dubbo-service/src/main" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,6 +50,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\NUC\Study\itheima\Dubbo\code\dubbo-service\src\main" />
       <recent name="H:\NUC\Study\itheima\Dubbo\code\dubbo-web\src\main\resources" />
       <recent name="H:\NUC\Study\itheima\Dubbo\code\dubbo-web\src\main\webapp\WEB-INF" />
       <recent name="H:\NUC\Study\itheima\Dubbo\code\dubbo-service\src\main\resources" />
@@ -65,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695801608741</updated>
-      <workItem from="1695801610174" duration="1982000" />
+      <workItem from="1695801610174" duration="3997000" />
     </task>
     <servers />
   </component>
@@ -89,22 +90,22 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2660" y="279" key="FileChooserDialogImpl/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1695801660726" />
-    <state width="1877" height="308" key="GridCell.Tab.0.bottom" timestamp="1695803493897">
+    <state width="1877" height="316" key="GridCell.Tab.0.bottom" timestamp="1695806036412">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1695803493897" />
-    <state width="1877" height="308" key="GridCell.Tab.0.center" timestamp="1695803493897">
+    <state width="1877" height="316" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1695806036412" />
+    <state width="1877" height="316" key="GridCell.Tab.0.center" timestamp="1695806036412">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1695803493897" />
-    <state width="1877" height="308" key="GridCell.Tab.0.left" timestamp="1695803493897">
+    <state width="1877" height="316" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1695806036412" />
+    <state width="1877" height="316" key="GridCell.Tab.0.left" timestamp="1695806036412">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1695803493897" />
-    <state width="1877" height="308" key="GridCell.Tab.0.right" timestamp="1695803493897">
+    <state width="1877" height="316" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1695806036412" />
+    <state width="1877" height="316" key="GridCell.Tab.0.right" timestamp="1695806036412">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1695803493897" />
+    <state width="1877" height="316" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1695806036412" />
     <state x="2143" y="139" key="SettingsEditor" timestamp="1695801753542">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>

@@ -5,6 +5,15 @@
 	   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
         http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
 
-	<context:component-scan base-package="com.ithiema.service"/>
+	<!--单体项目时，spring框架使用的包扫描，转为dubbo就不需要了-->
+<!--	<context:component-scan base-package="com.ithiema.service"/>-->
+
+	<!--dubbo-->
+	<!--1.配置项目名称 唯一-->
+	<dubbo:application name="dubbo-service"/>
+	<!--2.配置zookeeper（注册中心，可以用别的）的地址-->
+	<dubbo:registry address="zookeeper://192.168.88.130:2181"/>
+	<!--3.配置dubbo的包扫描-->
+	<dubbo:annotation package="com.ithiema.service.impl"/>
 
 </beans>

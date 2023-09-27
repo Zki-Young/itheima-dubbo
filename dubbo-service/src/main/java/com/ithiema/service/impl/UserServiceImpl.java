@@ -1,7 +1,7 @@
 package com.ithiema.service.impl;
 
 import com.ithiema.service.UserService;
-import org.springframework.stereotype.Service;
+import org.apache.dubbo.config.annotation.Service;
 
 /**
  * @Description: TODO
@@ -9,7 +9,8 @@ import org.springframework.stereotype.Service;
  * @Date: 2023/9/27 16:08
  * @company：CTTIC
  */
-@Service
+//@Service//springframework的Service注解 单体模式下 Bean的定义：放入IoC容器
+@Service//dubbo的Service注解 将ip 端口 路径 放入注册中心
 public class UserServiceImpl implements UserService {
     public String sayHello() {
         return "Hello Dubbo!";

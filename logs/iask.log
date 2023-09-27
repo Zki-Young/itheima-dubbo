@@ -17,3 +17,1284 @@
 2023-09-27 16:31:46  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)  Root WebApplicationContext initialized in 350 ms
 2023-09-27 16:31:57  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524)  Initializing Servlet 'springmvc'
 2023-09-27 16:31:58  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546)  Completed initialization in 538 ms
+2023-09-27 17:06:04  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:270)  Root WebApplicationContext: initialization started
+2023-09-27 17:06:05    using logger: org.apache.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2023-09-27 17:06:05  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor.resolveBeanNameGenerator(ServiceAnnotationBeanPostProcessor.java:207)   [DUBBO] BeanNameGenerator bean can't be found in BeanFactory with name [org.springframework.context.annotation.internalConfigurationBeanNameGenerator], dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:06:05  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor.resolveBeanNameGenerator(ServiceAnnotationBeanPostProcessor.java:209)   [DUBBO] BeanNameGenerator will be a instance of org.springframework.context.annotation.AnnotationBeanNameGenerator , it maybe a potential problem on bean name generation., dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:06:05  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor.registerServiceBean(ServiceAnnotationBeanPostProcessor.java:287)   [DUBBO] The BeanDefinition[Root bean: class [org.apache.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.ithiema.service.UserService, dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:06:05  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor.registerServiceBeans(ServiceAnnotationBeanPostProcessor.java:164)   [DUBBO] 1 annotated Dubbo's @Service Components { [Bean definition with name 'userServiceImpl': Generic bean: class [com.ithiema.service.impl.UserServiceImpl]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [H:\NUC\Study\itheima\Dubbo\code\dubbo-service\target\classes\com\ithiema\service\impl\UserServiceImpl.class]] } were scanned under package[com.ithiema.service.impl], dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:06:05  org.apache.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:112)   [DUBBO] The service ready on spring started. service: com.ithiema.service.UserService, dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:06:06  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:zookeeper.version=3.5.3-beta-8ce24f9e675cbefffb8f21a47e06b42864475a60, built on 04/03/2017 16:19 GMT
+2023-09-27 17:06:06  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:host.name=ZkiYoung-LEGION.r7000
+2023-09-27 17:06:06  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:java.version=1.8.0_281
+2023-09-27 17:06:06  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:java.vendor=Oracle Corporation
+2023-09-27 17:06:06  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:java.home=F:\Program Files\Java\jdk1.8.0_281\jre
+2023-09-27 17:06:06  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:java.class.path=F:\Program Files\Apache\Maven\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar;F:\Program Files\Apache\Maven\apache-maven-3.8.4\boot\plexus-classworlds.license;F:\Program Files\IDE\JetBrains\IntelliJ IDEA 2020.1.1\lib\idea_rt.jar
+2023-09-27 17:06:06  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:java.library.path=F:\Program Files\Java\jdk1.8.0_281\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:\Program Files\Java\jdk1.8.0_281\bin;F:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\PlasticSCM5\server;C:\Program Files\PlasticSCM5\client;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files (x86)\Lenovo\PCManager\4.0.30.12093\Security\service;F:\Program Files\Apache\Maven\apache-maven-3.8.4\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:cygwinbin;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Users\Zki Young\AppData\Local\Microsoft\WindowsApps;F:\Program Files\Java\jdk-11.0.12_windows-x64_bin\jdk-11.0.12\bin;C:\Program Files (x86)\Lenovo\PCManager\4.0.30.12093\;F:\Program Files\ComputerVision\Anaconda3;F:\Program Files\ComputerVision\Anaconda3\Scripts;F:\Program Files (x86)\PICT\;F:\Program Files\Oracle\MySQL\mysql-5.6.40-winx64\bin;F:\Program Files\Oracle\MySQL\mysql-5.5.62-winx64\bin;F:\Program Files\Microsoft\Microsoft VS Code\bin;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\dotnet\;F:\Program Files\Git\cmd;F:\Program Files (x86)\NetSarang\Xshell 7\;F:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\Program Files (x86)\NetSarang\Xftp 7\;F:\Program Files\develop\Subversion\bin;F:\Program Files\develop\TortoiseSVN\bin;F:\Program Files\IDE\微信开发者工具\微信web开发者工具\dll;F:\develop\rocketmq-all-4.7.1-bin-release\bin;C:\Users\Zki Young\AppData\Local\Microsoft\WindowsApps;C:\Users\Zki Young\.dotnet\tools;C:\Users\Zki Young\AppData\Roaming\npm;;.
+2023-09-27 17:06:06  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:java.io.tmpdir=C:\Users\ZKIYOU~1\AppData\Local\Temp\
+2023-09-27 17:06:06  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:java.compiler=<NA>
+2023-09-27 17:06:06  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:os.name=Windows 10
+2023-09-27 17:06:06  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:os.arch=amd64
+2023-09-27 17:06:06  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:os.version=10.0
+2023-09-27 17:06:06  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:user.name=Zki Young
+2023-09-27 17:06:06  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:user.home=C:\Users\Zki Young
+2023-09-27 17:06:06  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:user.dir=H:\NUC\Study\itheima\Dubbo\code\dubbo-service
+2023-09-27 17:06:06  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:os.memory.free=783MB
+2023-09-27 17:06:06  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:os.memory.max=7140MB
+2023-09-27 17:06:06  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:os.memory.total=870MB
+2023-09-27 17:06:06  org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:284)  Starting
+2023-09-27 17:06:06  org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:865)  Initiating client connection, connectString=192.168.88.130:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@47874242
+2023-09-27 17:06:06  org.apache.zookeeper.ClientCnxnSocket.initProperties(ClientCnxnSocket.java:236)  jute.maxbuffer value is 4194304 Bytes
+2023-09-27 17:06:06  org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:326)  Default schema
+2023-09-27 17:06:06  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:06:08  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:06:09  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:312)  Context initialization failed
+java.lang.IllegalStateException: zookeeper not connected
+	at org.apache.dubbo.remoting.zookeeper.curator.CuratorZookeeperClient.<init>(CuratorZookeeperClient.java:83)
+	at org.apache.dubbo.remoting.zookeeper.curator.CuratorZookeeperTransporter.createZookeeperClient(CuratorZookeeperTransporter.java:26)
+	at org.apache.dubbo.remoting.zookeeper.support.AbstractZookeeperTransporter.connect(AbstractZookeeperTransporter.java:68)
+	at org.apache.dubbo.remoting.zookeeper.ZookeeperTransporter$Adaptive.connect(ZookeeperTransporter$Adaptive.java)
+	at org.apache.dubbo.configcenter.support.zookeeper.ZookeeperDynamicConfiguration.<init>(ZookeeperDynamicConfiguration.java:62)
+	at org.apache.dubbo.configcenter.support.zookeeper.ZookeeperDynamicConfigurationFactory.createDynamicConfiguration(ZookeeperDynamicConfigurationFactory.java:37)
+	at org.apache.dubbo.configcenter.AbstractDynamicConfigurationFactory.getDynamicConfiguration(AbstractDynamicConfigurationFactory.java:33)
+	at org.apache.dubbo.config.AbstractInterfaceConfig.getDynamicConfiguration(AbstractInterfaceConfig.java:315)
+	at org.apache.dubbo.config.AbstractInterfaceConfig.prepareEnvironment(AbstractInterfaceConfig.java:290)
+	at org.apache.dubbo.config.AbstractInterfaceConfig.startConfigCenter(AbstractInterfaceConfig.java:280)
+	at org.apache.dubbo.config.AbstractInterfaceConfig.lambda$null$7(AbstractInterfaceConfig.java:636)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.apache.dubbo.config.AbstractInterfaceConfig.lambda$useRegistryForConfigIfNecessary$8(AbstractInterfaceConfig.java:620)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.apache.dubbo.config.AbstractInterfaceConfig.useRegistryForConfigIfNecessary(AbstractInterfaceConfig.java:618)
+	at org.apache.dubbo.config.AbstractInterfaceConfig.checkRegistry(AbstractInterfaceConfig.java:208)
+	at org.apache.dubbo.config.ServiceConfig.checkAndUpdateSubConfigs(ServiceConfig.java:303)
+	at org.apache.dubbo.config.ServiceConfig.export(ServiceConfig.java:370)
+	at org.apache.dubbo.config.spring.ServiceBean.export(ServiceBean.java:336)
+	at org.apache.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:114)
+	at org.apache.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:60)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:402)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:359)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:896)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:400)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:291)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4797)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5291)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: zookeeper not connected
+	at org.apache.dubbo.remoting.zookeeper.curator.CuratorZookeeperClient.<init>(CuratorZookeeperClient.java:80)
+	... 39 more
+2023-09-27 17:06:09  org.apache.dubbo.registry.support.AbstractRegistryFactory.destroyAll(AbstractRegistryFactory.java:68)   [DUBBO] Close all registries [], dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:06:09  org.apache.dubbo.config.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor.destroy(AnnotationInjectedBeanPostProcessor.java:304)  class org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor was destroying!
+2023-09-27 17:06:09  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:06:10  org.apache.curator.framework.imps.CuratorFrameworkImpl.backgroundOperationsLoop(CuratorFrameworkImpl.java:924)  backgroundOperationsLoop exiting
+2023-09-27 17:06:11  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:06:12  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:06:14  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:06:15  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:06:17  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:06:19  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:06:21  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:06:22  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:06:24  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:06:25  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:06:27  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:06:28  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:06:30  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:06:31  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:07:14  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:270)  Root WebApplicationContext: initialization started
+2023-09-27 17:07:15    using logger: org.apache.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2023-09-27 17:07:15  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor.resolveBeanNameGenerator(ServiceAnnotationBeanPostProcessor.java:207)   [DUBBO] BeanNameGenerator bean can't be found in BeanFactory with name [org.springframework.context.annotation.internalConfigurationBeanNameGenerator], dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:07:15  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor.resolveBeanNameGenerator(ServiceAnnotationBeanPostProcessor.java:209)   [DUBBO] BeanNameGenerator will be a instance of org.springframework.context.annotation.AnnotationBeanNameGenerator , it maybe a potential problem on bean name generation., dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:07:15  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor.registerServiceBean(ServiceAnnotationBeanPostProcessor.java:287)   [DUBBO] The BeanDefinition[Root bean: class [org.apache.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.ithiema.service.UserService, dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:07:15  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor.registerServiceBeans(ServiceAnnotationBeanPostProcessor.java:164)   [DUBBO] 1 annotated Dubbo's @Service Components { [Bean definition with name 'userServiceImpl': Generic bean: class [com.ithiema.service.impl.UserServiceImpl]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [H:\NUC\Study\itheima\Dubbo\code\dubbo-service\target\classes\com\ithiema\service\impl\UserServiceImpl.class]] } were scanned under package[com.ithiema.service.impl], dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:07:15  org.apache.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:112)   [DUBBO] The service ready on spring started. service: com.ithiema.service.UserService, dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:07:15  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:zookeeper.version=3.5.3-beta-8ce24f9e675cbefffb8f21a47e06b42864475a60, built on 04/03/2017 16:19 GMT
+2023-09-27 17:07:15  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:host.name=ZkiYoung-LEGION.r7000
+2023-09-27 17:07:15  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:java.version=1.8.0_281
+2023-09-27 17:07:15  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:java.vendor=Oracle Corporation
+2023-09-27 17:07:15  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:java.home=F:\Program Files\Java\jdk1.8.0_281\jre
+2023-09-27 17:07:15  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:java.class.path=F:\Program Files\Apache\Maven\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar;F:\Program Files\Apache\Maven\apache-maven-3.8.4\boot\plexus-classworlds.license;F:\Program Files\IDE\JetBrains\IntelliJ IDEA 2020.1.1\lib\idea_rt.jar
+2023-09-27 17:07:15  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:java.library.path=F:\Program Files\Java\jdk1.8.0_281\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:\Program Files\Java\jdk1.8.0_281\bin;F:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\PlasticSCM5\server;C:\Program Files\PlasticSCM5\client;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files (x86)\Lenovo\PCManager\4.0.30.12093\Security\service;F:\Program Files\Apache\Maven\apache-maven-3.8.4\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:cygwinbin;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Users\Zki Young\AppData\Local\Microsoft\WindowsApps;F:\Program Files\Java\jdk-11.0.12_windows-x64_bin\jdk-11.0.12\bin;C:\Program Files (x86)\Lenovo\PCManager\4.0.30.12093\;F:\Program Files\ComputerVision\Anaconda3;F:\Program Files\ComputerVision\Anaconda3\Scripts;F:\Program Files (x86)\PICT\;F:\Program Files\Oracle\MySQL\mysql-5.6.40-winx64\bin;F:\Program Files\Oracle\MySQL\mysql-5.5.62-winx64\bin;F:\Program Files\Microsoft\Microsoft VS Code\bin;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\dotnet\;F:\Program Files\Git\cmd;F:\Program Files (x86)\NetSarang\Xshell 7\;F:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\Program Files (x86)\NetSarang\Xftp 7\;F:\Program Files\develop\Subversion\bin;F:\Program Files\develop\TortoiseSVN\bin;F:\Program Files\IDE\微信开发者工具\微信web开发者工具\dll;F:\develop\rocketmq-all-4.7.1-bin-release\bin;C:\Users\Zki Young\AppData\Local\Microsoft\WindowsApps;C:\Users\Zki Young\.dotnet\tools;C:\Users\Zki Young\AppData\Roaming\npm;;.
+2023-09-27 17:07:15  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:java.io.tmpdir=C:\Users\ZKIYOU~1\AppData\Local\Temp\
+2023-09-27 17:07:15  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:java.compiler=<NA>
+2023-09-27 17:07:15  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:os.name=Windows 10
+2023-09-27 17:07:15  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:os.arch=amd64
+2023-09-27 17:07:15  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:os.version=10.0
+2023-09-27 17:07:15  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:user.name=Zki Young
+2023-09-27 17:07:15  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:user.home=C:\Users\Zki Young
+2023-09-27 17:07:15  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:user.dir=H:\NUC\Study\itheima\Dubbo\code\dubbo-service
+2023-09-27 17:07:15  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:os.memory.free=600MB
+2023-09-27 17:07:15  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:os.memory.max=7140MB
+2023-09-27 17:07:15  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:os.memory.total=663MB
+2023-09-27 17:07:15  org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:284)  Starting
+2023-09-27 17:07:15  org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:865)  Initiating client connection, connectString=192.168.88.130:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@3225853f
+2023-09-27 17:07:15  org.apache.zookeeper.ClientCnxnSocket.initProperties(ClientCnxnSocket.java:236)  jute.maxbuffer value is 4194304 Bytes
+2023-09-27 17:07:15  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:07:15  org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:326)  Default schema
+2023-09-27 17:07:17  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:07:18  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:312)  Context initialization failed
+java.lang.IllegalStateException: zookeeper not connected
+	at org.apache.dubbo.remoting.zookeeper.curator.CuratorZookeeperClient.<init>(CuratorZookeeperClient.java:83)
+	at org.apache.dubbo.remoting.zookeeper.curator.CuratorZookeeperTransporter.createZookeeperClient(CuratorZookeeperTransporter.java:26)
+	at org.apache.dubbo.remoting.zookeeper.support.AbstractZookeeperTransporter.connect(AbstractZookeeperTransporter.java:68)
+	at org.apache.dubbo.remoting.zookeeper.ZookeeperTransporter$Adaptive.connect(ZookeeperTransporter$Adaptive.java)
+	at org.apache.dubbo.configcenter.support.zookeeper.ZookeeperDynamicConfiguration.<init>(ZookeeperDynamicConfiguration.java:62)
+	at org.apache.dubbo.configcenter.support.zookeeper.ZookeeperDynamicConfigurationFactory.createDynamicConfiguration(ZookeeperDynamicConfigurationFactory.java:37)
+	at org.apache.dubbo.configcenter.AbstractDynamicConfigurationFactory.getDynamicConfiguration(AbstractDynamicConfigurationFactory.java:33)
+	at org.apache.dubbo.config.AbstractInterfaceConfig.getDynamicConfiguration(AbstractInterfaceConfig.java:315)
+	at org.apache.dubbo.config.AbstractInterfaceConfig.prepareEnvironment(AbstractInterfaceConfig.java:290)
+	at org.apache.dubbo.config.AbstractInterfaceConfig.startConfigCenter(AbstractInterfaceConfig.java:280)
+	at org.apache.dubbo.config.AbstractInterfaceConfig.lambda$null$7(AbstractInterfaceConfig.java:636)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.apache.dubbo.config.AbstractInterfaceConfig.lambda$useRegistryForConfigIfNecessary$8(AbstractInterfaceConfig.java:620)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.apache.dubbo.config.AbstractInterfaceConfig.useRegistryForConfigIfNecessary(AbstractInterfaceConfig.java:618)
+	at org.apache.dubbo.config.AbstractInterfaceConfig.checkRegistry(AbstractInterfaceConfig.java:208)
+	at org.apache.dubbo.config.ServiceConfig.checkAndUpdateSubConfigs(ServiceConfig.java:303)
+	at org.apache.dubbo.config.ServiceConfig.export(ServiceConfig.java:370)
+	at org.apache.dubbo.config.spring.ServiceBean.export(ServiceBean.java:336)
+	at org.apache.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:114)
+	at org.apache.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:60)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:402)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:359)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:896)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:400)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:291)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4797)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5291)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: zookeeper not connected
+	at org.apache.dubbo.remoting.zookeeper.curator.CuratorZookeeperClient.<init>(CuratorZookeeperClient.java:80)
+	... 39 more
+2023-09-27 17:07:18  org.apache.dubbo.registry.support.AbstractRegistryFactory.destroyAll(AbstractRegistryFactory.java:68)   [DUBBO] Close all registries [], dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:07:18  org.apache.dubbo.config.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor.destroy(AnnotationInjectedBeanPostProcessor.java:304)  class org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor was destroying!
+2023-09-27 17:07:18  org.apache.curator.framework.imps.CuratorFrameworkImpl.backgroundOperationsLoop(CuratorFrameworkImpl.java:924)  backgroundOperationsLoop exiting
+2023-09-27 17:07:18  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:07:20  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:07:22  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:07:24  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:07:25  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:07:27  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:07:28  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:07:30  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:07:31  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:07:33  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:07:34  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:07:36  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:07:37  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:07:39  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:07:41  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:07:43  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:07:44  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:07:46  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:07:47  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:07:49  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:07:50  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:07:52  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:07:53  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:07:55  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:07:56  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:07:58  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:08:00  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:08:02  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:08:03  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:08:05  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:08:06  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:08:08  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:08:09  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:08:11  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:08:12  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:08:14  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:08:15  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:08:17  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:08:18  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:08:20  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:08:22  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:08:24  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:08:25  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:08:27  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:08:28  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:08:30  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:08:31  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:08:33  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:08:34  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:08:36  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:08:37  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:08:39  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:08:41  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:08:43  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:08:44  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:08:46  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:08:47  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:08:49  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:08:50  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:08:52  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:08:53  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:08:55  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:08:56  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:08:58  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:08:59  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:09:02  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:09:03  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:09:05  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:09:06  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:09:08  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:09:09  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:09:11  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:09:12  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:09:14  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:09:15  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:09:17  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:09:18  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:09:20  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:09:22  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:09:24  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:09:25  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:09:27  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:09:28  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:09:30  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:09:31  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:09:33  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:09:34  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:09:36  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:09:37  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:09:39  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:09:40  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:09:43  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:09:44  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:09:46  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:09:47  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:09:49  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:09:50  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:09:52  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:09:53  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:09:55  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:09:56  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:09:58  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:09:59  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:10:01  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:10:03  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:10:05  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:10:06  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:10:08  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:10:09  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:10:11  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:10:12  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:10:14  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:10:15  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:10:17  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:10:18  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:10:20  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:10:21  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:10:23  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:10:25  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:10:27  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:10:28  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:10:30  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:10:31  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:10:33  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:10:34  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:10:36  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:10:37  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:10:39  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:10:40  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:10:42  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:10:44  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:10:46  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:10:47  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:10:49  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:10:50  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:10:52  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:10:53  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:10:55  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:10:56  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:10:58  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:10:59  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:11:01  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:11:02  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:11:05  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:11:06  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:11:08  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:11:09  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:11:11  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:11:12  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:11:14  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:11:15  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:11:17  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:11:18  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:11:20  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:11:21  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:11:23  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:11:25  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:11:27  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:11:28  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:11:30  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:11:31  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:11:33  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:11:34  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:11:36  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:11:37  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:11:39  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:11:40  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:11:42  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:11:44  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:11:46  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:11:47  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:11:49  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:11:50  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:11:52  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:11:53  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:11:55  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:11:56  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:11:58  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:11:59  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:12:01  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:12:02  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:12:04  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:12:06  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:12:08  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:12:09  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:12:11  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:12:12  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:12:14  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:12:15  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:12:17  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:12:18  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:12:20  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:12:21  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:12:23  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:12:25  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:12:27  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:12:28  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:12:30  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:12:31  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:12:33  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:12:34  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:12:36  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:12:37  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:12:39  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:12:40  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:12:42  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:12:44  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:12:46  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:12:47  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:12:49  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:12:50  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:12:51  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49479, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:12:51  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+Caused by: java.lang.ClassNotFoundException: org.apache.zookeeper.proto.ConnectRequest
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1713)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1558)
+	... 3 more
+2023-09-27 17:12:53  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:12:53  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49480, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:12:53  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:12:55  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:12:55  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49481, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:12:55  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:12:57  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:12:57  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49482, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:12:57  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:12:58  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:12:58  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49483, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:12:58  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:12:59  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:12:59  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49486, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:12:59  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:01  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:01  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49488, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:01  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:02  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:02  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49489, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:02  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:03  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:03  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49490, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:03  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:05  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:05  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49492, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:05  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:07  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:07  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49494, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:07  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:09  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:09  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49500, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:09  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:11  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:11  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49502, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:11  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:12  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:12  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49503, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:12  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:14  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:14  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49504, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:14  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:16  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:16  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49508, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:16  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:17  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:17  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49509, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:17  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:19  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:19  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49510, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:19  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:20  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:20  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49511, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:20  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:22  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:22  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49512, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:22  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:23  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:23  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49513, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:23  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:25  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:25  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49516, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:25  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:27  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:27  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49523, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:27  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:28  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:28  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49545, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:28  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:29  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:29  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49546, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:29  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:31  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:31  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49547, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:31  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:32  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:32  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49548, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:32  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:34  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:34  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49549, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:34  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:35  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:35  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49550, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:35  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:37  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:37  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49551, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:37  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:38  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:38  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49552, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:38  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:40  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:40  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49554, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:40  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:42  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:42  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49555, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:42  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:43  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:43  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49556, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:43  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:45  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:45  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49559, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:45  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:46  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:46  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49560, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:46  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:48  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:48  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49561, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:48  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:49  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:49  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49562, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:49  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:13:51  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:13:51  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49563, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:13:51  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server 192.168.88.130/192.168.88.130:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/ConnectRequest
+	at org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:953)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:360)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2023-09-27 17:14:02  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:270)  Root WebApplicationContext: initialization started
+2023-09-27 17:14:03    using logger: org.apache.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2023-09-27 17:14:03  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor.resolveBeanNameGenerator(ServiceAnnotationBeanPostProcessor.java:207)   [DUBBO] BeanNameGenerator bean can't be found in BeanFactory with name [org.springframework.context.annotation.internalConfigurationBeanNameGenerator], dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:14:03  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor.resolveBeanNameGenerator(ServiceAnnotationBeanPostProcessor.java:209)   [DUBBO] BeanNameGenerator will be a instance of org.springframework.context.annotation.AnnotationBeanNameGenerator , it maybe a potential problem on bean name generation., dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:14:03  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor.registerServiceBean(ServiceAnnotationBeanPostProcessor.java:287)   [DUBBO] The BeanDefinition[Root bean: class [org.apache.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.ithiema.service.UserService, dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:14:03  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor.registerServiceBeans(ServiceAnnotationBeanPostProcessor.java:164)   [DUBBO] 1 annotated Dubbo's @Service Components { [Bean definition with name 'userServiceImpl': Generic bean: class [com.ithiema.service.impl.UserServiceImpl]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [H:\NUC\Study\itheima\Dubbo\code\dubbo-service\target\classes\com\ithiema\service\impl\UserServiceImpl.class]] } were scanned under package[com.ithiema.service.impl], dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:14:03  org.apache.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:112)   [DUBBO] The service ready on spring started. service: com.ithiema.service.UserService, dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:14:03  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:zookeeper.version=3.5.3-beta-8ce24f9e675cbefffb8f21a47e06b42864475a60, built on 04/03/2017 16:19 GMT
+2023-09-27 17:14:03  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:host.name=ZkiYoung-LEGION.r7000
+2023-09-27 17:14:03  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:java.version=1.8.0_281
+2023-09-27 17:14:03  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:java.vendor=Oracle Corporation
+2023-09-27 17:14:03  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:java.home=F:\Program Files\Java\jdk1.8.0_281\jre
+2023-09-27 17:14:03  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:java.class.path=F:\Program Files\Apache\Maven\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar;F:\Program Files\Apache\Maven\apache-maven-3.8.4\boot\plexus-classworlds.license;F:\Program Files\IDE\JetBrains\IntelliJ IDEA 2020.1.1\lib\idea_rt.jar
+2023-09-27 17:14:03  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:java.library.path=F:\Program Files\Java\jdk1.8.0_281\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:\Program Files\Java\jdk1.8.0_281\bin;F:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\PlasticSCM5\server;C:\Program Files\PlasticSCM5\client;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files (x86)\Lenovo\PCManager\4.0.30.12093\Security\service;F:\Program Files\Apache\Maven\apache-maven-3.8.4\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:cygwinbin;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Users\Zki Young\AppData\Local\Microsoft\WindowsApps;F:\Program Files\Java\jdk-11.0.12_windows-x64_bin\jdk-11.0.12\bin;C:\Program Files (x86)\Lenovo\PCManager\4.0.30.12093\;F:\Program Files\ComputerVision\Anaconda3;F:\Program Files\ComputerVision\Anaconda3\Scripts;F:\Program Files (x86)\PICT\;F:\Program Files\Oracle\MySQL\mysql-5.6.40-winx64\bin;F:\Program Files\Oracle\MySQL\mysql-5.5.62-winx64\bin;F:\Program Files\Microsoft\Microsoft VS Code\bin;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\dotnet\;F:\Program Files\Git\cmd;F:\Program Files (x86)\NetSarang\Xshell 7\;F:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\Program Files (x86)\NetSarang\Xftp 7\;F:\Program Files\develop\Subversion\bin;F:\Program Files\develop\TortoiseSVN\bin;F:\Program Files\IDE\微信开发者工具\微信web开发者工具\dll;F:\develop\rocketmq-all-4.7.1-bin-release\bin;C:\Users\Zki Young\AppData\Local\Microsoft\WindowsApps;C:\Users\Zki Young\.dotnet\tools;C:\Users\Zki Young\AppData\Roaming\npm;;.
+2023-09-27 17:14:03  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:java.io.tmpdir=C:\Users\ZKIYOU~1\AppData\Local\Temp\
+2023-09-27 17:14:03  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:java.compiler=<NA>
+2023-09-27 17:14:03  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:os.name=Windows 10
+2023-09-27 17:14:03  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:os.arch=amd64
+2023-09-27 17:14:03  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:os.version=10.0
+2023-09-27 17:14:03  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:user.name=Zki Young
+2023-09-27 17:14:03  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:user.home=C:\Users\Zki Young
+2023-09-27 17:14:03  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:user.dir=H:\NUC\Study\itheima\Dubbo\code\dubbo-service
+2023-09-27 17:14:03  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:os.memory.free=597MB
+2023-09-27 17:14:03  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:os.memory.max=7140MB
+2023-09-27 17:14:03  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:os.memory.total=660MB
+2023-09-27 17:14:03  org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:284)  Starting
+2023-09-27 17:14:03  org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:865)  Initiating client connection, connectString=192.168.88.130:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@2bb3f399
+2023-09-27 17:14:03  org.apache.zookeeper.ClientCnxnSocket.initProperties(ClientCnxnSocket.java:236)  jute.maxbuffer value is 4194304 Bytes
+2023-09-27 17:14:03  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-09-27 17:14:03  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:948)  Socket connection established, initiating session, client: /192.168.88.1:49568, server: 192.168.88.130/192.168.88.130:2181
+2023-09-27 17:14:03  org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:326)  Default schema
+2023-09-27 17:14:03  org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1381)  Session establishment complete on server 192.168.88.130/192.168.88.130:2181, sessionid = 0x100000b25170000, negotiated timeout = 40000
+2023-09-27 17:14:03  org.apache.curator.framework.state.ConnectionStateManager.postState(ConnectionStateManager.java:237)  State change: CONNECTED
+2023-09-27 17:14:03  org.apache.dubbo.remoting.zookeeper.support.AbstractZookeeperTransporter.connect(AbstractZookeeperTransporter.java:69)   [DUBBO] No valid zookeeper client found from cache, therefore create a new client for url. zookeeper://192.168.88.130:2181/ConfigCenterConfig?check=true&config-file=dubbo.properties&group=dubbo&highest-priority=false&namespace=dubbo&timeout=3000, dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:14:03  org.apache.dubbo.remoting.zookeeper.curator.CuratorZookeeperClient$CuratorConnectionStateListener.stateChanged(CuratorZookeeperClient.java:372)   [DUBBO] Curator zookeeper client instance initiated successfully, session id is 100000b25170000, dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:14:03  org.apache.curator.framework.imps.EnsembleTracker.processConfigData(EnsembleTracker.java:195)  New config event received: {}
+2023-09-27 17:14:03  org.apache.dubbo.common.config.ConfigurationUtils.parseProperties(ConfigurationUtils.java:76)   [DUBBO] You specified the config centre, but there's not even one single config item in it., dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:14:03  org.apache.dubbo.common.config.ConfigurationUtils.parseProperties(ConfigurationUtils.java:76)   [DUBBO] You specified the config centre, but there's not even one single config item in it., dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:14:03  org.apache.dubbo.config.AbstractInterfaceConfig.checkMetadataReport(AbstractInterfaceConfig.java:266)   [DUBBO] There's no valid metadata config found, if you are using the simplified mode of registry url, please make sure you have a metadata address configured properly., dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:14:03  org.apache.dubbo.config.ServiceConfig.findConfigedHosts(ServiceConfig.java:690)   [DUBBO] No valid ip found from environment, try to find valid host from DNS., dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:14:03  org.apache.dubbo.config.ServiceConfig.exportLocal(ServiceConfig.java:648)   [DUBBO] Export dubbo service com.ithiema.service.UserService to local registry url : injvm://127.0.0.1/com.ithiema.service.UserService?anyhost=true&application=dubbo-service&bean.name=ServiceBean:com.ithiema.service.UserService&bind.ip=192.168.54.75&bind.port=20880&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&interface=com.ithiema.service.UserService&methods=sayHello&pid=54892&release=2.7.4.1&side=provider&timestamp=1695806043893, dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:14:03  org.apache.dubbo.config.AbstractInterfaceConfig.checkMonitor(AbstractInterfaceConfig.java:238)   [DUBBO] There's no valid monitor config found, if you want to open monitor statistics for Dubbo, please make sure your monitor is configured properly., dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:14:03  org.apache.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:594)   [DUBBO] Register dubbo service com.ithiema.service.UserService url dubbo://192.168.54.75:20880/com.ithiema.service.UserService?anyhost=true&application=dubbo-service&bean.name=ServiceBean:com.ithiema.service.UserService&bind.ip=192.168.54.75&bind.port=20880&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&interface=com.ithiema.service.UserService&methods=sayHello&pid=54892&release=2.7.4.1&side=provider&timestamp=1695806043893 to registry registry://192.168.88.130:2181/org.apache.dubbo.registry.RegistryService?application=dubbo-service&dubbo=2.0.2&pid=54892&registry=zookeeper&release=2.7.4.1&timestamp=1695806043890, dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:14:04  org.apache.curator.framework.imps.EnsembleTracker.processConfigData(EnsembleTracker.java:195)  New config event received: {}
+2023-09-27 17:14:07  org.apache.dubbo.qos.server.Server.start(Server.java:109)   [DUBBO] qos-server bind localhost:22222, dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:14:07  org.apache.dubbo.remoting.transport.AbstractServer.<init>(AbstractServer.java:73)   [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /192.168.54.75:20880, dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:14:07  org.apache.dubbo.remoting.zookeeper.support.AbstractZookeeperTransporter.connect(AbstractZookeeperTransporter.java:58)   [DUBBO] find valid zookeeper client from the cache for address: zookeeper://192.168.88.130:2181/org.apache.dubbo.registry.RegistryService?application=dubbo-service&dubbo=2.0.2&interface=org.apache.dubbo.registry.RegistryService&pid=54892&release=2.7.4.1&timestamp=1695806043890, dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:14:07  org.apache.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:280)   [DUBBO] Register: dubbo://192.168.54.75:20880/com.ithiema.service.UserService?anyhost=true&application=dubbo-service&bean.name=ServiceBean:com.ithiema.service.UserService&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&interface=com.ithiema.service.UserService&methods=sayHello&pid=54892&release=2.7.4.1&side=provider&timestamp=1695806043893, dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:14:07  org.apache.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:305)   [DUBBO] Subscribe: provider://192.168.54.75:20880/com.ithiema.service.UserService?anyhost=true&application=dubbo-service&bean.name=ServiceBean:com.ithiema.service.UserService&bind.ip=192.168.54.75&bind.port=20880&category=configurators&check=false&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&interface=com.ithiema.service.UserService&methods=sayHello&pid=54892&release=2.7.4.1&side=provider&timestamp=1695806043893, dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:14:07  org.apache.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:399)   [DUBBO] Notify urls for subscribe url provider://192.168.54.75:20880/com.ithiema.service.UserService?anyhost=true&application=dubbo-service&bean.name=ServiceBean:com.ithiema.service.UserService&bind.ip=192.168.54.75&bind.port=20880&category=configurators&check=false&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&interface=com.ithiema.service.UserService&methods=sayHello&pid=54892&release=2.7.4.1&side=provider&timestamp=1695806043893, urls: [empty://192.168.54.75:20880/com.ithiema.service.UserService?anyhost=true&application=dubbo-service&bean.name=ServiceBean:com.ithiema.service.UserService&bind.ip=192.168.54.75&bind.port=20880&category=configurators&check=false&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&interface=com.ithiema.service.UserService&methods=sayHello&pid=54892&release=2.7.4.1&side=provider&timestamp=1695806043893], dubbo version: 2.7.4.1, current host: 192.168.54.75
+2023-09-27 17:14:07  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)  Root WebApplicationContext initialized in 4599 ms
