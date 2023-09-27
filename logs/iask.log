@@ -1,0 +1,19 @@
+2023-09-27 16:22:28  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:270)  Root WebApplicationContext: initialization started
+2023-09-27 16:22:28  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)  Root WebApplicationContext initialized in 701 ms
+2023-09-27 16:23:26  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524)  Initializing Servlet 'springmvc'
+2023-09-27 16:23:27  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546)  Completed initialization in 497 ms
+2023-09-27 16:23:27  org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1249)  No mapping for GET /user/sayHello.do
+2023-09-27 16:24:44  org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1249)  No mapping for GET /user/sayHello.do
+2023-09-27 16:25:50  org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1249)  No mapping for GET /user/sayHello.do
+2023-09-27 16:27:10  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:270)  Root WebApplicationContext: initialization started
+2023-09-27 16:27:10  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)  Root WebApplicationContext initialized in 421 ms
+2023-09-27 16:27:55  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:270)  Root WebApplicationContext: initialization started
+2023-09-27 16:27:56  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)  Root WebApplicationContext initialized in 350 ms
+2023-09-27 16:30:35  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:270)  Root WebApplicationContext: initialization started
+2023-09-27 16:30:36  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)  Root WebApplicationContext initialized in 360 ms
+2023-09-27 16:31:24  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:270)  Root WebApplicationContext: initialization started
+2023-09-27 16:31:24  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)  Root WebApplicationContext initialized in 341 ms
+2023-09-27 16:31:45  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:270)  Root WebApplicationContext: initialization started
+2023-09-27 16:31:46  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)  Root WebApplicationContext initialized in 350 ms
+2023-09-27 16:31:57  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524)  Initializing Servlet 'springmvc'
+2023-09-27 16:31:58  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546)  Completed initialization in 538 ms
