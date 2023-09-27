@@ -33,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dubbo-service/src/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,6 +49,12 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.itheima.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itheima.service" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\NUC\Study\itheima\Dubbo\code\dubbo-service\src\main" />
       <recent name="H:\NUC\Study\itheima\Dubbo\code\dubbo-web\src\main\resources" />
@@ -66,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695801608741</updated>
-      <workItem from="1695801610174" duration="3997000" />
+      <workItem from="1695801610174" duration="7285000" />
     </task>
     <servers />
   </component>
@@ -86,37 +92,45 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2478" y="447" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1695802167521" />
-    <state x="2660" y="279" key="FileChooserDialogImpl" timestamp="1695801660726">
+    <state x="2610" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1695811219257">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2660" y="279" key="FileChooserDialogImpl/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1695801660726" />
-    <state width="1877" height="316" key="GridCell.Tab.0.bottom" timestamp="1695806036412">
+    <state x="2610" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1695811219257" />
+    <state x="2660" y="279" key="FileChooserDialogImpl" timestamp="1695811155989">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1695806036412" />
-    <state width="1877" height="316" key="GridCell.Tab.0.center" timestamp="1695806036412">
+    <state x="2660" y="279" key="FileChooserDialogImpl/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1695811155989" />
+    <state width="1877" height="499" key="GridCell.Tab.0.bottom" timestamp="1695811381355">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1695806036412" />
-    <state width="1877" height="316" key="GridCell.Tab.0.left" timestamp="1695806036412">
+    <state width="1877" height="499" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1695811381355" />
+    <state width="1877" height="499" key="GridCell.Tab.0.center" timestamp="1695811381355">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1695806036412" />
-    <state width="1877" height="316" key="GridCell.Tab.0.right" timestamp="1695806036412">
+    <state width="1877" height="499" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1695811381355" />
+    <state width="1877" height="499" key="GridCell.Tab.0.left" timestamp="1695811381355">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1695806036412" />
-    <state x="2143" y="139" key="SettingsEditor" timestamp="1695801753542">
+    <state width="1877" height="499" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1695811381355" />
+    <state width="1877" height="499" key="GridCell.Tab.0.right" timestamp="1695811381355">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2143" y="139" key="SettingsEditor/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1695801753542" />
+    <state width="1877" height="499" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1695811381355" />
+    <state x="2143" y="139" key="SettingsEditor" timestamp="1695811094625">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2143" y="139" key="SettingsEditor/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1695811094625" />
     <state x="2484" y="126" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1695802670901">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2484" y="126" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1695802670901" />
-    <state x="2296" y="174" key="new project wizard" timestamp="1695801750382">
+    <state x="2582" y="228" width="626" height="594" key="find.popup" timestamp="1695810290477">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2296" y="174" key="new project wizard/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1695801750382" />
+    <state x="2582" y="228" width="626" height="594" key="find.popup/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1695810290477" />
+    <state x="2296" y="174" key="new project wizard" timestamp="1695811087094">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2296" y="174" key="new project wizard/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1695811087094" />
   </component>
 </project>

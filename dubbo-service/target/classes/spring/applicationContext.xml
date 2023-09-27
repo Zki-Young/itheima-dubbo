@@ -14,6 +14,6 @@
 	<!--2.配置zookeeper（注册中心，可以用别的）的地址-->
 	<dubbo:registry address="zookeeper://192.168.88.130:2181"/>
 	<!--3.配置dubbo的包扫描-->
-	<dubbo:annotation package="com.ithiema.service.impl"/>
+	<dubbo:annotation package="com.itheima.service.impl"/>
 
 </beans>

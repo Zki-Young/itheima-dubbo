@@ -54,6 +54,6 @@
     <orderEntry type="library" name="Maven: io.netty:netty:3.10.5.Final" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:20.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.curator:curator-recipes:4.0.0" level="project" />
-    <orderEntry type="module" module-name="dubbo-service" />
+    <orderEntry type="module" module-name="dubbo-interface" />
   </component>
 </module>

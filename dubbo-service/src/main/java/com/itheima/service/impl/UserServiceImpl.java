@@ -1,6 +1,6 @@
-package com.ithiema.service.impl;
+package com.itheima.service.impl;
 
-import com.ithiema.service.UserService;
+import com.itheima.service.UserService;
 import org.apache.dubbo.config.annotation.Service;
 
 /**

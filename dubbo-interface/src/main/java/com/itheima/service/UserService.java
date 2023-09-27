@@ -1,9 +1,9 @@
-package com.ithiema.service;
+package com.itheima.service;
 
 /**
  * @Description: TODO
  * @Auther: Zki Young
- * @Date: 2023/9/27 16:08
+ * @Date: 2023/9/27 17:25
  * @company：CTTIC
  */
 public interface UserService {
