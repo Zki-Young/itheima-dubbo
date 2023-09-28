@@ -22,7 +22,7 @@ public class UserController {
      * 2. 进行远程调用RPC
      * 3. 将结果封装为一个代理对象。给变量赋值
      **/
-    @Reference(timeout = 3000)//远程注入
+    @Reference(version = "v2.0")//远程注入
     private UserService userService;
 
     @RequestMapping("/sayHello")
