@@ -11,10 +11,10 @@ import org.apache.dubbo.config.annotation.Service;
  * @company：CTTIC
  */
 //@Service//springframework的Service注解 单体模式下 Bean的定义：放入IoC容器
-@Service(version = "v1.0")//dubbo的Service注解 将ip 端口 路径 放入注册中心
+@Service(weight = 100)//dubbo的Service注解 将ip 端口 路径 放入注册中心
 public class UserServiceImpl implements UserService {
     public String sayHello() {
-        return "Hello Dubbo!";
+        return "Hello Dubbo!33333";
     }
 
     int i = 0;
