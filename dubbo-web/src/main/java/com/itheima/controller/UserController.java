@@ -22,7 +22,7 @@ public class UserController {
      * 2. 进行远程调用RPC
      * 3. 将结果封装为一个代理对象。给变量赋值
      **/
-    @Reference//远程注入
+    @Reference(timeout = 3000)//远程注入
     private UserService userService;
 
     @RequestMapping("/sayHello")
@@ -31,8 +31,19 @@ public class UserController {
         return userService.sayHello();
     }
 
+    int i = 1;
     @RequestMapping("/find")
     public User findUserById(){
+        new Thread(()->{
+            while (true){
+                System.out.println(i++);
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        }).start();
         return userService.findUserById(1);
     }
 }
