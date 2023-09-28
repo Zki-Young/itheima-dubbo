@@ -1,5 +1,7 @@
 package com.itheima.service;
 
+import com.itheima.pojo.User;
+
 /**
  * @Description: TODO
  * @Auther: Zki Young
@@ -8,4 +10,8 @@ package com.itheima.service;
  */
 public interface UserService {
     public String sayHello();
+
+    //查询用户
+    public User findUserById(int id);
+
 }
